@@ -1,0 +1,365 @@
+@import url('Navigation.css');
+
+/* Page bg circle shapes */
+
+.left-circle1 {
+    position: absolute;
+    left: -170px;
+    top: 158px;
+    width: 378px;
+    height: 378px;
+    opacity: 0.45;
+    background: var(--neutral-fade6);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.left-circle2 {
+    position: absolute;
+    left: 55px;
+    top: 475px;
+    width: 254px;
+    height: 254px;
+    opacity: 0.45;
+    background: var(--neutral-fade6);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.center-circle2 {
+    position: absolute;
+    left: 686px;
+    top: 29px;
+    width: 514px;
+    height: 514px;
+    opacity: 0.45;
+    background: var(--neutral-fade6);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.rigth-circle1 {
+    position: absolute;
+    left: 1310px;
+    top: 220px;
+    width: 346px;
+    height: 346px;
+    opacity: 0.45;
+    background: var(--neutral-fade6);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.right-circle2 {
+    position: absolute;
+    left: 1157px;
+    top: 469px;
+    width: 244px;
+    height: 244px;
+    opacity: 0.45;
+    background: var(--neutral-fade6);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+
+
+
+/* Highlighting create menu */
+
+.createMenu {
+    
+    background: var(--primary-dark7);
+    color: var(--neutral-fade7);
+    font-size: var(--font-16px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-24px);
+}
+
+.createMenu span {
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Form Container section start */
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 56px 0px;
+    width: 48%;
+}
+
+.formContainer h1 {
+    color: var(--primary-dark3);
+    font-size: var(--font-32px);
+    font-family: var(--font-Inter);
+    font-weight: 700;
+    line-height: var(--line-42px);
+    word-wrap: break-word;
+    text-align: left;
+    width: 100%;
+    text-shadow: var(--shadow-text1);
+}
+
+.formFieldsContainer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+}
+
+.formField {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.formField input {
+    width: 100%;
+    height: 40px;
+    padding: 20px 16px;
+    border-radius: 8px;
+    border: 2px var(--primary-fade4) solid;
+    outline: none;
+    cursor: pointer;
+
+    text-align: left;
+    color: var(--primary-dark2);
+    font-size: var(--font-14px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-21px);
+    word-wrap: break-word;
+
+    position: relative;
+}
+
+.formField input:hover {
+    border: 2px var(--primary-fade2) solid;
+}
+
+.formField input:focus {
+    border: 2px var(--primary-dark2) solid;
+}
+
+.formField span {
+    display: none;
+    font-size: 35px;
+    color: var(--warning-color1);
+}
+
+.fieldText {
+    position: absolute;
+    left: 11px;
+    padding: 0px 5px;
+    color: var(--primary-dark2);
+    font-size: var(--font-14px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-21px);
+    word-wrap: break-word;
+    transform: translateY(0px);
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--body-color);
+    cursor: pointer;
+}
+
+/* .formField input:focus+.fieldText {
+    transform: translateY(-20px);
+    transition: transform 0.3s ease-in-out;
+} */
+
+
+
+.fileUploadField {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 5px 1px;
+    width: 100%;
+}
+
+.fileUploadLabel {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px var(--primary-fade4) solid;
+    background-color: var(--primary-fade4);
+
+    color: var(--primary-dark2);
+    font-size: var(--font-14px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-21px);
+    word-wrap: break-word;
+}
+
+.fileUploadLabel:hover {
+    border: 2px var(--primary-fade2) solid;
+    color: var(--primary-fade4);
+    background-color: var(--primary-dark2);
+}
+
+.fileUploadLabel:focus {
+    border: 2px var(--primary-dark2) solid;
+}
+
+.image-name {
+    color: var(--primary-dark2);
+    font-size: var(--font-14px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-21px);
+    word-wrap: break-word;
+}
+
+
+
+.formSubmitBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 5px 1px;
+    width: 100%;
+}
+
+#saveBtn {
+    width: 109px;
+    height: 40px;
+    background: var(--primary-dark1);
+    box-shadow: var(--shadow-soft);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    border: none;
+
+    color: var(--neutral-fade7);
+    font-size: var(--font-14px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-21px);
+    word-wrap: break-word;
+}
+
+#saveBtn:hover{
+    background-color: var(--primary-dark5);
+}
+
+#saveBtn:active{
+    background-color: var(--primary-fade2);
+}
+
+#saveBtn span{
+    font-size: 28px;
+}
+
+#save-message{
+    display: none;
+    color: var(--success-color1);
+    font-size: var(--font-12px);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    line-height: var(--line-18px);
+    word-wrap: break-word;
+}
+
+
+
+
+
+/* Media Query code */
+
+@media (max-width:1000px){
+    .formContainer {
+        width: 60%;
+    }
+}
+
+@media (max-width:700px){
+    .formContainer {
+        width: 80%;
+    }
+
+    .formContainer h1 {
+        font-size: var(--font-28px);
+    }
+    
+    .formFieldsContainer {
+        gap: 24px;
+    }
+    
+    .formField input {
+        height: 35px;
+        padding: 18px 14px;
+        font-size: var(--font-12px);
+        line-height: var(--line-18px);
+    }
+    
+    .formField span {
+        font-size: 30px;
+    }
+    
+    .fieldText {
+        font-size: var(--font-12px);
+        line-height: var(--line-18px);
+    }
+    
+    .fileUploadLabel {
+        width: 25%;
+        height: 35px;
+        font-size: var(--font-12px);
+        line-height: var(--line-18px);
+    }
+    
+    .image-name {
+        font-size: var(--font-12px);
+        line-height: var(--line-18px);
+    }
+    
+    #saveBtn {
+        width: 100px;
+        height: 35px;
+        gap: 8px;
+        font-size: var(--font-12px);
+        line-height: var(--line-18px);
+    }
+    
+    #saveBtn:hover{
+        background-color: var(--primary-dark5);
+    }
+    
+    #saveBtn:active{
+        background-color: var(--primary-fade2);
+    }
+    
+    #saveBtn span{
+        font-size: 20px;
+    }
+
+}

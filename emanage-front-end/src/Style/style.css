@@ -1,0 +1,58 @@
+:root{
+    /* colors */
+    --body-color: #FFFFFF;
+    --primary-dark1: #534B84;
+    --primary-dark2: #4B4477;
+    --primary-dark3: #423C6A;
+    --primary-dark4: #3A355C;
+    --primary-dark5: #322D4F;
+    --primary-dark6: #BAB7CE;
+    --primary-dark7: #211E35;
+    --primary-fade1: #645D90;
+    --primary-fade2: #756F9D;
+    --primary-fade4: #9893B5;
+    --primary-fade7: #DDDBE6;
+
+    --neutral-dark7: #000000;
+    --neutral-fade6: #F6F0FF;
+    --neutral-fade7: #FEFDFF;
+
+    --accent-dark3: #009075;
+
+    --warning-color1: #FF0000;
+    --success-color1: #169202;
+
+
+
+    /* shadow */
+    --shadow-medium: 0px 8px 16px rgba(50.10, 50.10, 71.27, 0.06);
+    --shadow-soft: 0px 4px 8px rgba(50.10, 50.10, 71.27, 0.06);
+    --shadow-downBtn: 0px 4px 8px rgba(50.10, 50.10, 71.27, 0.06);
+    --shadow-hard: 0px 32px 40px rgba(50.10, 50.10, 71.27, 0.10);
+    --shadow-crossicon: -6px 6px 10px rgba(50.10, 50.10, 71.27, 0.10);
+    --shadow-text1: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* font */
+    --font-roboto: "Roboto", sans-serif;
+    --font-bold: bold;
+    --line-58px: 58px;
+    --font-48px: 48px;
+    --font-40px: 40px;
+    --font-30px: 30px;
+    --font-28px: 28px;
+
+    --font-Inter: "Inter", sans-serif;
+    --line-24px: 24px;
+    --font-16px: 16px;
+
+    --line-21px: 21px;
+    --font-14px: 14px;
+
+    --line-18px: 18px;
+    --font-12px: 12px;
+
+    --line-42px: 42px;
+    --font-32px: 32px;
+
+
+}
