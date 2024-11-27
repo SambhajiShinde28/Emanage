@@ -49,7 +49,7 @@ Emanage is a full-stack web application designed to efficiently manage employee 
 
 Click the image below to watch the project video
 
-[![Watch the video](https://drive.google.com/thumbnail?id=1lfE4JDgeSQxL6g5xUmujZtGr74eJu8ft)](https://drive.google.com/file/d/1lfE4JDgeSQxL6g5xUmujZtGr74eJu8ft/view?usp=sharing)
+[![Watch the video](https://drive.google.com/uc?export=view&id=1QUMaA0S33RJGVK0BABWG1ndKWoPPcwcX)](https://drive.google.com/file/d/1lfE4JDgeSQxL6g5xUmujZtGr74eJu8ft/view?usp=sharing)
 
 
 
